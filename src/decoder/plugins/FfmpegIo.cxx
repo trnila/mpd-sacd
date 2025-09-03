@@ -20,8 +20,12 @@
 /* necessary because libavutil/common.h uses UINT64_C */
 #define __STDC_CONSTANT_MACROS
 
+extern "C" {
+#include <libavutil/error.h>
+#include <libavutil/mem.h>
+}
+
 #include "FfmpegIo.hxx"
-#include "libavutil/mem.h"
 #include "../DecoderAPI.hxx"
 #include "input/InputStream.hxx"
 
