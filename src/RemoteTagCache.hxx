@@ -29,6 +29,7 @@
 #include <boost/intrusive/unordered_set.hpp>
 
 #include <string>
+#include <array>
 
 class RemoteTagCacheHandler;
 

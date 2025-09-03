@@ -30,6 +30,7 @@
 #ifndef FILE_READER_HXX
 #define FILE_READER_HXX
 
+#include <cstdint>
 #include "Reader.hxx"
 #include "fs/AllocatedPath.hxx"
 
